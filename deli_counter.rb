@@ -22,6 +22,6 @@ def now_serving(person)
   else
     current = "Currently serving "
     current << person.last
-    
+    person.pop
   end
 end

@@ -21,7 +21,7 @@ def now_serving(person)
     puts "There is nobody waiting to be served!"
   else
     current = "Currently serving "
-    current << person.last
-    person.pop
+    current << person.first
+    person.shift
   end
 end

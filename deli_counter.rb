@@ -20,7 +20,8 @@ def now_serving(person)
   if person.count == 0
     puts "There is nobody waiting to be served!"
   else
-    current = "Currently serving"
+    current = "Currently serving "
+    current << person.last
     
   end
 end
